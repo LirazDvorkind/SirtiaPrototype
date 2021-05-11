@@ -7,7 +7,7 @@ Pay attention to the three modules:
 3. **entities** - a shared module where all the entities of the project live.
 
 ## Running
-1. Run Maven install **in the parent project**.
-2. Run the server using the exec:java goal in the server module.
-3. Run the client using the javafx:run goal in the client module.
+1. Run Maven install **in the parent project**. (Create new goal "clean install")
+2. Run the server using the exec:java goal in the server module. (Create goal "exec:java" only on the server folder)
+3. Run the client using the javafx:run goal in the client module. (Create goal "javafx:run" only on the client folder)
 4. Press the button and see what happens!
