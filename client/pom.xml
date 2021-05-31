@@ -85,5 +85,16 @@
 				</executions>
 			</plugin>
 		</plugins>
+<<<<<<< HEAD
+=======
+		<resources>
+			<resource>
+				<directory>src/main/java</directory>
+			</resource>
+			<resource>
+				<directory>src/main/resources</directory>
+			</resource>
+		</resources>
+>>>>>>> refs/remotes/origin/temp
 	</build>
 </project>

@@ -50,11 +50,19 @@ public class SimpleServer extends AbstractServer {
         MovieTitle mt1 = new MovieTitle(
                 "אהבה פריזאית",
                 "Love in Paris",
+<<<<<<< HEAD
                 "Comendy, Romance",
                 "Francois Gilbert",
                 "Jean Gaber, Julienne Monet",
                 "When a bully from school doesn't recognize her and seeks a relationship after 20 " +
                         "years, Marie leverages the situation to get her vengeance.",
+=======
+                "Comedy, Romance",
+                "Francois Gilbert",
+                "Jean Gaber, Julienne Monet",
+                "When a bully from school doesn't recognize her and seeks a relationship after 20 " +
+                        "years, Marie leverages the situation to get her revenge.",
+>>>>>>> refs/remotes/origin/temp
                 "C:/Users/Liraz/Downloads/MoviePosters/Paris.jpg",
                 "10:00-12:30"
         );

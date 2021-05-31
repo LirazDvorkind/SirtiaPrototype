@@ -49,6 +49,7 @@
 						<mainClass>il.cshaifasweng.OCSFMediatorExample.server.App</mainClass>
 					</configuration>
 				</plugin>
+<<<<<<< HEAD
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-assembly-plugin</artifactId>
@@ -74,5 +75,37 @@
                     </executions>
 				</plugin>
 		</plugins>
+=======
+			<plugin>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<executions>
+					<execution>
+						<phase>package</phase>
+						<goals>
+							<goal>single</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<archive>
+						<manifest>
+							<mainClass>il.cshaifasweng.OCSFMediatorExample.server.App</mainClass>
+						</manifest>
+					</archive>
+					<descriptorRefs>
+						<descriptorRef>jar-with-dependencies</descriptorRef>
+					</descriptorRefs>
+				</configuration>
+			</plugin>
+		</plugins>
+		<resources>
+			<resource>
+				<directory>src/main/java</directory>
+			</resource>
+			<resource>
+				<directory>src/main/resources</directory>
+			</resource>
+		</resources>
+>>>>>>> refs/remotes/origin/temp
 	</build>
 </project>
