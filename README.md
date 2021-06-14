@@ -7,7 +7,6 @@ Pay attention to the three modules:
 3. **entities** - a shared module where all the entities of the project live.
 
 ## Running
-<<<<<<< HEAD
 1. Create a docker image.
 2. Run Maven install **in the parent project**. (Create new goal "clean install" on the entire folder)
 3. Run the server using the exec:java goal in the server module. (Create goal "exec:java" only on the server folder)
@@ -28,9 +27,7 @@ Run "use database example;" and you can see tables by "show tables;".
 To see a table's contents, run "select * from {table_name};".
 
 Step 2 could be problematic. If it says the port it already used, make sure Docker Desktop doesn't have another image of a database open under a different name on the same port. You may have to go to the task manager and stop the process "mysqld.exe".
-=======
 1. Run Maven install **in the parent project**.
 2. Run the server using the exec:java goal in the server module.
 3. Run the client using the javafx:run goal in the client module.
 4. Press the button and see what happens!
->>>>>>> refs/remotes/origin/temp
